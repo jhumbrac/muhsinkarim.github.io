@@ -1,62 +1,39 @@
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
 	background-color: rgb(230, 240, 244);
-	font-family: Arial;
+	font-family: 'Scheherazade', serif;
+	font-size:20px;
 	text-align: center;
 }
-
+h1, h2, h3 {
+	font-family: 'Lato', sans-serif;
+}
 h1 {
 	color: rgb(85, 153, 255);
 	/*text-shadow: 2px 2px rgba(0, 0, 0, 255);*/
-	font-size: 2.5em;*
-	line-height: 200%;
-	font-family: 'Lato', sans-serif;
+	font-size: 2.5em;
 	text-align: left;
 }
 
 h2 {
-	/*color: rgb(85, 153, 255);*/
 	font-size: 2em;
-	font-family: 'Lato', sans-serif;
 }
 
 h3 {
 	font-size: 1.75em;
-	font-family: 'Lato', sans-serif;	
 }
-
-p {
-	font-size: 1.75em;
-	/*font-family: 'Fanwood Text', serif;*/
-	font-family: 'Scheherazade', serif;
-	/*width: 300px	*/
-}
-
-#logo {
-    background-image: url('../images/Logo.png'); /*One directory back*/
-    background-size: contain;
-    background-position: center;
-    width: 33em;
-    height: 12em;
-}
-
-#slogan {
-	/*font-style: italic;*/
-	font-size: 2em;
+li {
+	font-size: 1.5em;
 	font-family: 'Lato', sans-serif;
 }
-
 #contact {
 	font-size: 1.5em;
 	/*font-family: 'Fanwood Text', serif;*/
-	font-family: 'Scheherazade', serif;
 }
 
 /*.bullets ul {*/
-.bullets {	
-	display: inline-block;
-	line-height: 200%;
-	/*text-align: left;*/
-	list-style-type: none;
-	font-size: 1.5em;
-	font-family: 'Lato', sans-serif;
+.bullets {
+	margin:auto;
+	text-align: left;
+	width:12.5em;
 }
